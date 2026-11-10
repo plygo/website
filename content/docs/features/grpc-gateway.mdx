@@ -9,7 +9,7 @@ The `grpcgateway` package maps gRPC-style method paths to JSON HTTP handlers.
 It handles JSON to protobuf conversion and delegates the call to an invoker.
 
 ```go
-import "github.com/Dziqha/ply/grpcgateway"
+import "github.com/plygo/ply/grpcgateway"
 
 gateway, err := grpcgateway.New(grpcgateway.Options{
 	Resolver: func(method string) (proto.Message, proto.Message, error) {

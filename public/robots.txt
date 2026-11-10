@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ply.web.id
+
+# Sitemaps
+Sitemap: https://ply.web.id/sitemap.xml

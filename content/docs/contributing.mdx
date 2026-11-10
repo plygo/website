@@ -15,17 +15,17 @@ documentation, reporting a bug, or adding a feature.
 - **Documentation.** Open a pull request for unclear or missing
   explanations.
 - **Feature proposals.** Start a thread in
-  [GitHub Discussions](https://github.com/Dziqha/ply/discussions) before
+  [GitHub Discussions](https://github.com/plygo/ply/discussions) before
   opening a large pull request.
 - **Code.** Pick an open issue, keep the change focused, and include tests
   where behavior changes.
 
 ## Working on a change
 
-1. Fork the repository and create a branch from `main`.
-2. Make the change and run `go build ./...`, `go vet ./...` and
+1. Fork the relevant repository and create a branch from `main`.
+2. For framework changes, run `go build ./...`, `go vet ./...` and
    `go test -race ./...`.
-3. For documentation changes, run the docs build from `docs/`.
+3. For documentation changes, run `npm run build` in this repository.
 4. Open a pull request describing the problem and the approach.
 
 If you are unsure where to start, open a discussion or ask on an issue.
@@ -36,4 +36,4 @@ Maintainers will point you to a suitable task.
 Pull requests are reviewed for correctness, API stability and consistency
 with the existing code. Small, focused changes are easier to review and
 merge. By participating, you agree to follow the
-[Code of Conduct](https://github.com/Dziqha/ply/blob/main/CODE_OF_CONDUCT.md).
+[Code of Conduct](https://github.com/plygo/ply/blob/main/CODE_OF_CONDUCT.md).

@@ -112,7 +112,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <CopyCommand command="go get github.com/Dziqha/ply" />
+            <CopyCommand command="go get github.com/plygo/ply" />
           </div>
 
           <div className="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 shadow-sm overflow-hidden">
@@ -126,8 +126,8 @@ export default function HomePage() {
 {`package main
 
 import (
-    "github.com/Dziqha/ply"
-    "github.com/Dziqha/ply/core"
+    "github.com/plygo/ply"
+    "github.com/plygo/ply/core"
 )
 
 func main() {
@@ -298,7 +298,7 @@ func main() {
                 Read the docs
               </Link>
               <Link
-                href="https://github.com/Dziqha/ply"
+                href="https://github.com/plygo/ply"
                 className="rounded-lg border border-neutral-300 px-6 py-3 text-center text-sm font-medium text-neutral-700 transition hover:bg-neutral-100 dark:border-white/15 dark:text-neutral-200 dark:hover:bg-white/10"
               >
                 GitHub

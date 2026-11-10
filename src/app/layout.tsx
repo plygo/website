@@ -26,13 +26,14 @@ export default function Layout({ children }: { children: ReactNode }) {
               description:
                 "A fast and lightweight Go web framework built on fasthttp.",
               url: "https://ply.web.id",
-              codeRepository: "https://github.com/Dziqha/ply",
+              codeRepository: "https://github.com/plygo/ply",
               programmingLanguage: "Go",
               license: "https://opensource.org/licenses/MIT",
-              downloadUrl: "https://pkg.go.dev/github.com/Dziqha/ply",
+              downloadUrl: "https://pkg.go.dev/github.com/plygo/ply",
               author: {
-                "@type": "Person",
-                name: "Dziqha",
+                "@type": "Organization",
+                name: "Ply",
+                url: "https://ply.web.id",
               },
               offers: {
                 "@type": "Offer",
@@ -52,7 +53,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               name: "Ply",
               url: "https://ply.web.id",
               logo: "https://ply.web.id/images/ply-icon-512.png",
-              sameAs: ["https://github.com/Dziqha/ply"],
+              sameAs: ["https://github.com/plygo/ply"],
             }),
           }}
         />

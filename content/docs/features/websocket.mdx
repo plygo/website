@@ -8,7 +8,7 @@ description: Upgrade HTTP connections and exchange text, binary, or JSON message
 The `websocket` package upgrades a Ply route and runs a connection handler.
 
 ```go
-import "github.com/Dziqha/ply/websocket"
+import "github.com/plygo/ply/websocket"
 
 app.Get("/ws", websocket.New().Handler(func(client *websocket.Client) {
 	for {

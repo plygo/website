@@ -46,7 +46,7 @@ export const baseOptions: BaseLayoutProps = {
     { text: 'Benchmarks', url: '/docs/benchmarks' },
     {
       text: 'GitHub',
-      url: 'https://github.com/Dziqha/ply',
+      url: 'https://github.com/plygo/ply',
       external: true,
     },
   ],

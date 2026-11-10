@@ -23,7 +23,7 @@ export const defaultMetadata: Metadata = {
     "sessions",
   ],
   authors: [{ name: "Ply", url: "https://ply.web.id" }],
-  creator: "Dziqha",
+  creator: "Ply",
   publisher: "Ply",
   category: "technology",
   metadataBase: new URL("https://ply.web.id"),
@@ -70,8 +70,6 @@ export const defaultMetadata: Metadata = {
     title: "Ply - Go web framework built on fasthttp",
     description:
       "Documentation for Ply, a fast and lightweight Go web framework built on fasthttp.",
-    site: "@Dziqha",
-    creator: "@Dziqha",
     images: ["/images/og-ply.png"],
   },
 
